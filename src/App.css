@@ -1,0 +1,8 @@
+.box-shadow{
+    box-shadow: 2px 2px 1px 1px;
+}
+
+.box-shadow:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+  }
