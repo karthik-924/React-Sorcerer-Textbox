@@ -56,7 +56,7 @@ function App() {
 
   const styles = {
     "header-one": {
-      fontSize: "2em",
+      fontSize: "1.5em",
       fontWeight: "bold",
       color: "black",
     },
@@ -191,7 +191,7 @@ function App() {
           Save
         </button>
       </div>
-      <div className="w-[90%] h-[80%] p-5 border border-solid border-blue-500">
+      <div className="w-[90%] h-[80%] p-5 border-[3px] border-solid border-blue-500">
         <Editor
           editorState={editorState}
           onChange={handleChange}
